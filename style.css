@@ -6,6 +6,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
 body {
   background-color: #1a1924;
+  font-size: 1.6rem;
+}
+
+body * {
+  border: 0.1rem solid green;
+}
+
+#app {
+  padding: 2.4rem 3.2rem;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
 }
