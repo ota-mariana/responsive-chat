@@ -17,6 +17,8 @@ body {
 
 body * {
   border: 0.1rem solid green;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 #app {
@@ -25,4 +27,44 @@ body * {
   width: 100vw;
   display: grid;
   grid-template-rows: max-content 1fr max-content;
+}
+
+/* TOP STYLE */
+
+#top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#user-info {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-weight: 700;
+}
+
+#user-info img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#user-status .status::before {
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  display: block;
+  background-color: #00B37E;
+}
+
+#user-status .status {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+  font-weight: 400;
+  color: #00B37E;
 }
