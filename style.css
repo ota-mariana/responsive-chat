@@ -16,7 +16,7 @@ body {
 }
 
 body * {
-  border: 0.1rem solid green;
+  /* border: 0.1rem solid green; */
   color: white;
   font-family: 'Roboto', sans-serif;
 }
@@ -67,4 +67,44 @@ body * {
   margin-top: 0.4rem;
   font-weight: 400;
   color: #00B37E;
+}
+
+/* MESSAGE'S BODY STYLE */
+
+#last-seen {
+  margin-top: 2.6rem;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.messages-section {
+  margin-top: 3rem;
+  font-size: 12px;
+  line-height: 14px;
+  display: grid;
+  gap: 3rem;
+}
+
+.message-body .message {
+  margin-top: 1rem;
+  background-color: rgb(51, 34, 90);
+  padding: 1.4rem;
+  border-radius: 10px 10px 10px 0;
+}
+
+.message-body:not(.you) {
+  width: 50vw;
+}
+
+.you-message-body {
+  margin-left: auto;
+  text-align: right;
+}
+
+.you-message-body .message {
+  margin-top: 1rem;
+  background-color: rgba(145, 10, 104, 0.63);
+  padding: 1.4rem;
+  border-radius: 10px 10px 0 10px;
 }
