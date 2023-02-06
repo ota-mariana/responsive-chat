@@ -21,5 +21,7 @@ Completed project!
 ### References
 
 Generate random images: https://randomuser.me/
+<br /> 
 Font setting: https://fonts.google.com/
+<br /> 
 Icons: https://phosphoricons.com/
