@@ -50,4 +50,4 @@ Icons: [Phosphor](https://phosphoricons.com/)
 
 ## 📝 License
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+This project is licensed by [MIT](./LICENSE).
